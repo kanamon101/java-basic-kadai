@@ -6,7 +6,7 @@ package kadai_018;
 			this.givenName = givenName;
 				
 		}
-		public void eachIntroduce2() {
+		public void eachIntroduce() {
 			System.out.println("趣味は読書です");
 			
 		}

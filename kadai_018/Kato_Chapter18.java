@@ -13,23 +13,19 @@ abstract class Kato_Chapter18 {
 	
 	//親クラスのメソッド
 	
-	public void eachIntroduce1() {
-		System.out.println("名前は" + familyName + givenName + "です");
-	}
-	
 	public void commonIntroduce() {
+		System.out.println("名前は" + familyName + givenName + "です");
 		System.out.println(address);
 	}
 	
 	//ここは各々違うこと書いてるので抽象メソッド
-	public abstract void eachIntroduce2();
+	public abstract void eachIntroduce();
 	
 	
 	//自己紹介の実行コマンド
 	public void execIntroduce() {
-		eachIntroduce1();
 		commonIntroduce();
-		eachIntroduce2();
+		eachIntroduce();
 		
 	}
 	

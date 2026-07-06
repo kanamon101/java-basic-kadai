@@ -6,7 +6,7 @@ public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 		this.givenName = givenName;
 			
 	}
-	public void eachIntroduce2() {
+	public void eachIntroduce() {
 		System.out.println("Javaが得意です");
 	}
 }
